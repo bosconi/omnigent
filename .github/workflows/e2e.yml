@@ -16,8 +16,8 @@ name: E2E Tests
 #                       merge-ready.yml.
 
 on:
-  schedule:
-    - cron: "0 9 * * *"
+  # schedule:
+  #   - cron: "0 9 * * *"
   pull_request:
     # labeled/unlabeled: kept for the skip-security-scan recovery path
     # (rerun-security-gate-run.yml falls back to this trigger). The concurrency
